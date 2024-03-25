@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 300px;
+  width: 400px;
+  background-color: rgb(227, 216, 255);
+}
+h1 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  padding: 5%;
+}
+
+#wordInput {
+  margin-bottom: 8px;
+  padding: 8px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 7px;
+  outline: none;
+}
+
+#wordInput:focus {
+  border: 2px solid rgb(216, 168, 255);
+}
+
+#speakButton {
+  width: 39%;
+  margin: 10px auto;
+  padding: 4px;
+  border-radius: 16px;
+  cursor: pointer;
+  background-color: antiquewhite;
+  transition-duration: 1000ms;
+}
+#speakButton:hover {
+  background-color: rgb(243, 219, 188);
+}
